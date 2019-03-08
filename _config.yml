@@ -10,16 +10,16 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Jae Wook, Kim Tech Blog"
+locale                   : "en-US" #"ko-KR" 
+title                    : "JW, Kim Tech Blog"
 title_separator          : "-"
-name                     : "Jae Wook, Kim"
-description              : "ROS(Robot Operating System), AUTOSAR, Data Science 등 관심 있는 분야에 대해 블로깅을 합니다."
+name                     : "JW, Kim"
+description              : "AUTOSAR, Data Science, ROS 등 관심 있는 분야에 대해 블로깅을 합니다."
 url                      :  "https://jwkim0411.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jwkim0411/jwkim0411.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,15 +106,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jae Wook, Kim"
+  name             : "JW, Kim"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Automotive SW Engineer"
-  location         : "Yong-In, KR"
+  location         : "Yong-In, Republic of Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
+      url: mailto:kjw19830411@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -295,7 +296,7 @@ defaults:
       related: true
  # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
